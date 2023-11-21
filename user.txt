@@ -1,0 +1,23 @@
+远程仓库密码
+https://github.com/login
+3129124801@qq.com
+mowenjanny/4198261mom
+
+
+https://github.com/mowenjanny/laravel.git
+git clone git@github.com:mowenjanny/laravel.git
+================
+本地建立仓库并连接远程仓库
+git config --global user.name "mowenjanny"
+git config --global user.email "3129124801@qq.com"
+ssh-keygen -t rsa -C "3129124801@qq.com"
+ssh -T git@github.com
+git clone git@github.com:mowenjanny/laravel.git
+===================
+git add myapp.txt
+$ git commit -m "安装说明"
+
+git push origin main:main
+======================
+$ git pull  合并更改 //如果不能推送
+Already up to date.//提示合并成功
